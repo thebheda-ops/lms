@@ -2,7 +2,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaPhone, FaEnvelope, FaMapMarkerAl
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white">
+    <footer className="bg-tia-primary text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* School Bio */}
@@ -12,13 +12,13 @@ const Footer = () => {
               TIA has been providing quality education for over 25 years, nurturing young minds and shaping future leaders through comprehensive academic programs and holistic development.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-secondary transition-colors">
+              <a href="#" className="text-gray-300 hover:text-tia-secondary transition-colors">
                 <FaFacebookF />
               </a>
-              <a href="#" className="text-gray-300 hover:text-secondary transition-colors">
+              <a href="#" className="text-gray-300 hover:text-tia-secondary transition-colors">
                 <FaTwitter />
               </a>
-              <a href="#" className="text-gray-300 hover:text-secondary transition-colors">
+              <a href="#" className="text-gray-300 hover:text-tia-secondary transition-colors">
                 <FaInstagram />
               </a>
             </div>
@@ -29,32 +29,32 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/about" className="text-gray-300 hover:text-secondary transition-colors">
+                <a href="/about" className="text-gray-300 hover:text-tia-secondary transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="/academics" className="text-gray-300 hover:text-secondary transition-colors">
+                <a href="/academics" className="text-gray-300 hover:text-tia-secondary transition-colors">
                   Academics
                 </a>
               </li>
               <li>
-                <a href="/admissions" className="text-gray-300 hover:text-secondary transition-colors">
+                <a href="/admissions" className="text-gray-300 hover:text-tia-secondary transition-colors">
                   Admissions
                 </a>
               </li>
               <li>
-                <a href="/facilities" className="text-gray-300 hover:text-secondary transition-colors">
+                <a href="/facilities" className="text-gray-300 hover:text-tia-secondary transition-colors">
                   Facilities
                 </a>
               </li>
               <li>
-                <a href="/gallery" className="text-gray-300 hover:text-secondary transition-colors">
+                <a href="/gallery" className="text-gray-300 hover:text-tia-secondary transition-colors">
                   Gallery
                 </a>
               </li>
               <li>
-                <a href="/contact" className="text-gray-300 hover:text-secondary transition-colors">
+                <a href="/contact" className="text-gray-300 hover:text-tia-secondary transition-colors">
                   Contact
                 </a>
               </li>
@@ -80,7 +80,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contact Info</h3>
             <div className="space-y-3">
               <div className="flex items-start">
-                <FaMapMarkerAlt className="text-secondary mt-1 mr-3 flex-shrink-0" />
+                <FaMapMarkerAlt className="text-tia-secondary mt-1 mr-3 flex-shrink-0" />
                 <div>
                   <p className="text-gray-300">
                     TIA School<br />
@@ -89,14 +89,14 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <FaPhone className="text-secondary mr-3" />
-                <a href="tel:+977-1-4444444" className="text-gray-300 hover:text-secondary transition-colors">
+                <FaPhone className="text-tia-secondary mr-3" />
+                <a href="tel:+977-1-4444444" className="text-gray-300 hover:text-tia-secondary transition-colors">
                   +977-1-4444444
                 </a>
               </div>
               <div className="flex items-center">
-                <FaEnvelope className="text-secondary mr-3" />
-                <a href="mailto:info@tia.edu.np" className="text-gray-300 hover:text-secondary transition-colors">
+                <FaEnvelope className="text-tia-secondary mr-3" />
+                <a href="mailto:info@tia.edu.np" className="text-gray-300 hover:text-tia-secondary transition-colors">
                   info@tia.edu.np
                 </a>
               </div>
@@ -107,10 +107,10 @@ const Footer = () => {
         <div className="border-t border-gray-600 mt-8 pt-8 text-center">
           <p className="text-gray-300">
             © 2024 TIA School. All rights reserved. |
-            <a href="/privacy" className="hover:text-secondary transition-colors ml-1">
+            <a href="/privacy" className="hover:text-tia-secondary transition-colors ml-1">
               Privacy Policy
             </a> |
-            <a href="/terms" className="hover:text-secondary transition-colors ml-1">
+            <a href="/terms" className="hover:text-tia-secondary transition-colors ml-1">
               Terms of Service
             </a>
           </p>

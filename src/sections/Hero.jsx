@@ -101,7 +101,7 @@ const Hero = () => {
           <Button size="lg" className="mr-4">
             Join Us Today
           </Button>
-          <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
+          <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-tia-primary">
             Learn More
           </Button>
         </motion.div>

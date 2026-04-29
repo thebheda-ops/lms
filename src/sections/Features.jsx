@@ -6,29 +6,29 @@ import { FaUserGraduate, FaFlask, FaBook, FaTrophy } from 'react-icons/fa';
 const Features = () => {
   const features = [
     {
-      icon: <FaUserGraduate className="text-4xl text-secondary" />,
+      icon: <FaUserGraduate className="text-4xl text-tia-secondary" />,
       title: 'Experienced Faculty',
       description: 'Our dedicated teachers bring years of experience and passion to every classroom.'
     },
     {
-      icon: <FaFlask className="text-4xl text-secondary" />,
+      icon: <FaFlask className="text-4xl text-tia-secondary" />,
       title: 'Modern Labs',
       description: 'State-of-the-art science and computer labs equipped with latest technology.'
     },
     {
-      icon: <FaBook className="text-4xl text-secondary" />,
+      icon: <FaBook className="text-4xl text-tia-secondary" />,
       title: 'Comprehensive Curriculum',
       description: 'Holistic education covering academics, arts, sports, and character development.'
     },
     {
-      icon: <FaTrophy className="text-4xl text-secondary" />,
+      icon: <FaTrophy className="text-4xl text-tia-secondary" />,
       title: 'Achievement Focused',
       description: 'Track record of academic excellence and extracurricular achievements.'
     }
   ];
 
   return (
-    <section className="py-16 bg-lightGrey">
+    <section className="py-16 bg-tia-grey">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           title="Why Choose TIA?"
@@ -48,7 +48,7 @@ const Features = () => {
                 <div className="flex justify-center mb-4">
                   {feature.icon}
                 </div>
-                <h3 className="text-xl font-semibold text-primary mb-3">
+                <h3 className="text-xl font-semibold text-tia-primary mb-3">
                   {feature.title}
                 </h3>
                 <p className="text-gray-600">

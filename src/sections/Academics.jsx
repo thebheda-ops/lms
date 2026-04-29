@@ -38,7 +38,7 @@ const Academics = () => {
           {levels.map((level, index) => (
             <motion.div
               key={index}
-              className={`rounded-lg p-8 transition-all duration-300 cursor-pointer ${level.color} border-2 border-transparent hover:border-primary hover:shadow-lg`}
+              className={`rounded-lg p-8 transition-all duration-300 cursor-pointer ${level.color} border-2 border-transparent hover:border-tia-primary hover:shadow-lg`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
@@ -46,10 +46,10 @@ const Academics = () => {
               whileHover={{ scale: 1.05 }}
             >
               <div className="text-center">
-                <h3 className="text-2xl font-bold text-primary mb-2">
+                <h3 className="text-2xl font-bold text-tia-primary mb-2">
                   {level.title}
                 </h3>
-                <p className="text-lg font-semibold text-secondary mb-4">
+                <p className="text-lg font-semibold text-tia-secondary mb-4">
                   {level.grades}
                 </p>
                 <p className="text-gray-700 mb-6">
@@ -59,13 +59,13 @@ const Academics = () => {
                 <ul className="text-left space-y-2">
                   {level.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center">
-                      <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                      <span className="w-2 h-2 bg-tia-primary rounded-full mr-3"></span>
                       {feature}
                     </li>
                   ))}
                 </ul>
 
-                <button className="mt-6 bg-primary text-white px-6 py-2 rounded-lg hover:bg-red-700 transition-colors">
+                <button className="mt-6 bg-tia-primary text-white px-6 py-2 rounded-lg hover:bg-red-700 transition-colors">
                   Learn More
                 </button>
               </div>

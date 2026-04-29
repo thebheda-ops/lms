@@ -36,7 +36,7 @@ const NewsEvents = () => {
   ];
 
   return (
-    <section className="py-16 bg-lightGrey">
+    <section className="py-16 bg-tia-grey">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           title="News & Events"
@@ -53,8 +53,8 @@ const NewsEvents = () => {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-xl font-bold text-primary mb-4 flex items-center">
-                <span className="w-2 h-8 bg-secondary mr-3"></span>
+              <h3 className="text-xl font-bold text-tia-primary mb-4 flex items-center">
+                <span className="w-2 h-8 bg-tia-secondary mr-3"></span>
                 Notice Board
               </h3>
 
@@ -69,7 +69,7 @@ const NewsEvents = () => {
                   }}
                 >
                   {[...notices, ...notices].map((notice, index) => (
-                    <div key={index} className="bg-lightGrey p-3 rounded border-l-4 border-primary">
+                    <div key={index} className="bg-tia-grey p-3 rounded border-l-4 border-tia-primary">
                       <p className="text-sm text-gray-700">{notice}</p>
                       <span className="text-xs text-gray-500 mt-1 block">
                         {new Date().toLocaleDateString()}
@@ -106,17 +106,17 @@ const NewsEvents = () => {
                     />
                     <div className="p-4">
                       <div className="flex items-center mb-2">
-                        <span className="bg-secondary text-white px-2 py-1 rounded text-xs font-medium">
+                        <span className="bg-tia-secondary text-white px-2 py-1 rounded text-xs font-medium">
                           {new Date(item.date).toLocaleDateString()}
                         </span>
                       </div>
-                      <h4 className="text-lg font-semibold text-primary mb-2">
+                      <h4 className="text-lg font-semibold text-tia-primary mb-2">
                         {item.title}
                       </h4>
                       <p className="text-gray-600 text-sm mb-3">
                         {item.excerpt}
                       </p>
-                      <button className="text-primary hover:text-red-700 font-medium text-sm">
+                      <button className="text-tia-primary hover:text-red-700 font-medium text-sm">
                         Read More →
                       </button>
                     </div>

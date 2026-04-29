@@ -23,7 +23,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3">
               <img src="/logo.png" alt="TIA Logo" className="h-8 w-auto" />
-              <span className="text-xl font-bold text-primary">TIA</span>
+              <span className="text-xl font-bold text-tia-primary">TIA</span>
             </Link>
           </div>
 
@@ -33,7 +33,7 @@ const Navigation = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-tia-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 {item.name}
               </Link>
@@ -60,7 +60,7 @@ const Navigation = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary"
+                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-tia-primary"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
